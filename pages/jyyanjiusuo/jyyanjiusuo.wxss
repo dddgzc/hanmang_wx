@@ -1,0 +1,114 @@
+.banner-img image{
+  width: 100%;
+  height:340rpx;
+}
+
+.info{
+  padding: 45rpx 24rpx 30rpx;
+  box-shadow: 0 10rpx 20rpx #e7e7e7;
+}
+
+.titles{
+  font-size: 22rpx;
+  font-weight: bold;
+  color: #313131;
+  margin-bottom: 30rpx;
+}
+
+.share_time{
+  font-size: 20rpx;
+  color: #464545;
+}
+
+.book-num{color: #a1a1a1;font-size: 20rpx;}
+
+.shengyu-me{
+  font-size: 20rpx;
+  color: #c65a5a;
+  margin-left: 22rpx;
+}
+
+.heade{
+  padding: 24rpx 56rpx;
+  background-color: #fcebbf;
+}
+
+.heade .tag{
+  font-size: 18rpx;
+  width: 134rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  color: #fff;
+  line-height: 50rpx;
+  text-align: center;
+  background-color: #ecbd2c;
+}
+
+.txt{
+  font-size: 20rpx;
+  margin-left: 30rpx;
+  color: #ecbd2c;
+}
+
+.content-box{
+  padding: 30rpx;
+}
+
+.big-txt{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 30rpx;
+  line-height: 24rpx;
+}
+
+.desc{
+  font-size: 22rpx;
+  color: #353535;
+  line-height: 1.65;
+  margin-bottom: 40rpx;
+}
+
+.box-item{margin-bottom: 30rpx;}
+
+.join_btn{
+  width: 100%;
+  height: 98rpx;
+  background: #ecbd2c;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 98rpx;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.bam_zx{
+  width: 56rpx;
+  height: 150rpx;
+  border: 1px solid #707070;
+  padding-top: 25rpx;
+  box-sizing: border-box;
+  border-radius: 75rpx;
+  position: fixed;
+  right: 20rpx;
+  bottom: 120rpx;
+  background: #fff;
+}
+
+.bam_zx image{
+  width: 30rpx;
+  height: 29rpx;
+  display: block;
+  margin: auto;
+}
+
+.btns{
+  font-size: 16rpx;
+  font-weight: bold;
+  color: #4c4c4c;
+  width: 18rpx;
+  margin: 4rpx auto 0;
+}

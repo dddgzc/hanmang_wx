@@ -1,0 +1,49 @@
+button::after{
+  border: none;
+}
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 14px;
+}
+.button_view{
+}
+.button_view:active{
+  opacity: 0.98;
+  transform: scale(1.02);
+}
+.botton_tag{
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  padding: 0px 0.8rem;
+  line-height: 1.2rem;
+  font-size: 12px;
+}
+.botton_tag:active{
+  opacity: 0.98;
+  transform: scale(1.02);
+}
+.circle_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px #cdcdcd;
+}
+.border-rect{
+  border-radius: 0px;
+}
+.border-round{
+  border-radius: 4px;
+}
+.border-ellipse{
+  border-radius: 100px;
+}
+.border-circle{
+  border-radius: 50%;
+}

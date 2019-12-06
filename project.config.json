@@ -1,0 +1,151 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.1",
+	"appid": "wxc332005ea9cde05b",
+	"projectname": "%E5%AF%92%E8%8A%92%E5%89%8D%E7%AB%AF",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/userpage/userpage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的订单",
+					"pathName": "pages/wodedingdan/wodedingdan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待评价",
+					"pathName": "pages/daipingjia/daipingjia",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "经验研究所",
+					"pathName": "pages/jyyanjiusuo/jyyanjiusuo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/aboutus/aboutus",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结算",
+					"pathName": "pages/jiesuan/jiesuan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付成功",
+					"pathName": "pages/pay_success/pay_success",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页1",
+					"pathName": "pages/index_index/index_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "意见反馈",
+					"pathName": "pages/yijian/yijian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "详情1",
+					"pathName": "pages/detail1/detail1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新增项目",
+					"pathName": "pages/xinzengproject/xinzengproject",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新增项目编辑",
+					"pathName": "pages/edit_page/edit_page",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

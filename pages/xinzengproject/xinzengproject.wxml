@@ -1,0 +1,60 @@
+<view class='top-head'>基础资料</view>
+<view class='weui-box'>
+  <view class='weui-cell flex'>
+    <text class='label-txt'>项目名称</text>
+    <view class='right-con relative flex-wrap'>
+      <input placeholder-class='int' placeholder='十个字以内'></input>
+    </view>
+  </view>
+  <view class='weui-cell flex'>
+    <text class='label-txt'>项目人数</text>
+    <view class='right-con relative flex-wrap'>
+      <input placeholder-class='int' placeholder='项目可参与人数'></input>
+    </view>
+  </view>
+  <view class='weui-cell flex'>
+    <text class='label-txt'>项目类型</text>
+    <view class='right-con relative '>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker flex-wrap">
+        <view class='va' wx-if="{{flag1}}">类型</view>
+         {{array[index]}}
+
+         <image class='flex-right' src='../images/flex-right.png'></image>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='weui-cell pro-desc'>
+    <text class='label-txt'>项目介绍</text>
+    <view class='right-con relative flex-wrap'>
+      <textarea  placeholder-class='int' class='textarea' placeholder='项目介绍'></textarea>
+    </view>
+  </view>
+  <view class='weui-cell flex'>
+    <text class='label-txt'>开始日期</text>
+    <view class='right-con relative '>
+      
+      <picker mode="date" value="{{date}}" start="2017-10-01" end="2017-10-08" bindchange="changeDate">
+      <view class="tui-picker-detail flex-wrap">
+        <view class='va' wx-if="{{flag}}">项目开始日期</view>
+        {{date}}
+        <image class='flex-right' src='../images/flex-right.png'></image>
+      </view>
+    </picker>
+    </view>
+  </view>
+</view>
+<view class='line'></view>
+<view class='sc-box'>
+  <view class="educt_hasupload_pic" wx:for="{{evalList[0].tempFilePaths}}" wx:key="index" >
+    <image src="{{item.pic}}" class="upload"></image>
+    <image src="../images/deltel.png" bindtap='clearImg' data-index="{{index}}" class="deltel"></image>
+  </view>
+  <view class="educt_upload_add" bindtap="joinPicture" data-index="{{0}}" >
+    <image src="../images/add.jpg"></image>
+    <view class='tips'>添加项目图片</view>
+  </view>
+</view> 
+<view class='line1'></view>
+<button class='next'>下一步</button>

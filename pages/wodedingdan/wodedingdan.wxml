@@ -1,0 +1,19 @@
+
+<view class="comment-list-wrapper">
+  <view class="comment-items" wx:for="{{commentArr}}" data-index="{{index}}">
+    <image src="{{item.picUrl}}" class="picbox"></image>
+    <view class="info-comment">
+      <view class="titles flex-wrap">{{item.title1}} <text class="tags">项目进行中</text></view>
+      <view class="big-tit ">{{item.title2}}</view>
+      <view class="flex-wrap ot">
+        <text class="">开营时间</text>
+        <text class="">2900</text>
+      </view>
+      <view class="clearfix">
+        <text class="comment-btn">课程评价</text>
+        <text class="btn-delet">删除订单</text>
+      </view>
+    </view>
+  </view>
+  
+</view>

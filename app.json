@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/userpage/userpage",
+    "pages/wodedingdan/wodedingdan",
+    "pages/daipingjia/daipingjia",
+    "pages/jyyanjiusuo/jyyanjiusuo",
+    "pages/aboutus/aboutus",
+    "pages/jiesuan/jiesuan",
+    "pages/detail/detail",
+    "pages/pay_success/pay_success",
+    "pages/yijian/yijian",
+    "pages/xinzengproject/xinzengproject",
+    "pages/edit_page/edit_page"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffcc2d",
+    "navigationBarTitleText": "经验研究所",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于经验研究所小程序"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#868a8f",
+    "selectedColor": "#121212",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学院",
+        "iconPath": "pages/images/class.png",
+        "selectedIconPath": "pages/images/class_on.png"
+      },
+      {
+        "pagePath": "pages/userpage/userpage",
+        "text": "我的",
+        "iconPath": "pages/images/user.png",
+        "selectedIconPath": "pages/images/user_on.png"
+      }
+    ]
+  }
+}

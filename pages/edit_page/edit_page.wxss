@@ -1,0 +1,73 @@
+@import "../common/lib/weui.wxss";
+@import "../assets/iconfont.wxss";
+
+.wrapper {
+  padding: 5px;
+}
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.iconfont {
+  display: inline-block;
+  padding: 8px 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-bottom: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+.ql-container {
+  box-sizing: border-box;
+  padding: 12px 15px;
+  width: 100%;
+  min-height: 30vh;
+  height: auto;
+  /* border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; */
+  background: #fff;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ql-active {
+  color: #06c;
+}
+
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.footer button{
+  width: 50%;
+  border-radius: 0;
+  border: 0 !important;
+  font-size: 30rpx;
+  line-height: 94rpx;
+}
+
+.save{
+  color: #ffcc2d;
+  background: #fff;
+}
+
+.submit{
+  color: #fff;
+  background: #ffcc2d;
+}

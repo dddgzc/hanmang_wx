@@ -1,0 +1,8 @@
+<form report-submit='true' bindsubmit='_submitEvent' bindreset="formReset">
+  <button disabled='{{disable}}' class='botton_{{tag?"tag":"view"}} border-{{radius}}' style='height:{{tag?"":height}};width:{{tag?"":(radius=="circle"?height:width)}};margin:{{margin}};color:{{textColor}};background-color:{{bg}};border:{{border}};' formType="submit">
+    <slot></slot>
+    <x-icon color='{{color}}' type='{{icon}}'></x-icon>
+    {{radius=="circle"?"":label}}
+    <view wx:if="{{num > 0}}" class='red_pointer_num'>{{num}}</view>
+  </button>
+</form>

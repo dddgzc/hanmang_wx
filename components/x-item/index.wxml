@@ -1,0 +1,3 @@
+<view class='item display display-{{direction}}' bindtouchstart='_touchStart' bindtouchend='_bindtouchend' bindtouchmove='_bindtouchmove'>
+  <slot></slot>
+</view>

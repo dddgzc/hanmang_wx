@@ -1,0 +1,58 @@
+<view class='user-box'>
+  <view class='flex-wrap userbos'>
+    <view class='flex user-info-box'>
+      <button bindtap="login_func" open-type="getUserInfo" class="login_button">授权登录</button>
+      <view class='userinfor'>
+        <view class='nick-name'>{{ nickName }}</view>
+        <view class='grade flex'><text>{{classId}}</text></view>
+      </view>
+    </view>
+    <view class='admin_box'>
+    <image src='../images/edit.jpg'></image>
+    
+    普通</view>
+  </view>
+</view>
+<view class='all'>
+  <view class='top-cn'>
+    <view class='items1'>
+      <view class='num'>2</view>
+      <view class='t'>我的订单</view>
+    </view>
+    <view class='items1'>
+      <view class='num'>2</view>
+      <view class='t'>待评价</view>
+    </view>
+    <view class='items1'>
+      <view class='num'>2</view>
+      <view class='t'>我的收藏</view>
+    </view>
+  </view>
+  <view class='ad'>
+    <image src='../images/ad.jpg' mode='widthFix'></image>
+  </view>
+  <view class='nav_list'>
+  <view class='nav_item flex-wrap'>
+    <view class='flex'>
+      <image src='../images/yj.jpg' mode='widthFix' class='a1' ></image>
+      <view class='label'>意见反馈</view>
+    </view>
+    <image src='../images/flex-right.png' class='flex-right'></image>
+  </view>
+  <button class='nav_item nav_item flex-wrap' open-type="contact">
+    <view class='flex'>
+      <image src='../images/kf.jpg' mode='widthFix' class='a1'></image>
+      <view class='label'>联系客服</view>
+    </view>
+     <image src='../images/flex-right.png' class='flex-right'></image>
+  </button>
+  <view class='nav_item flex-wrap'>
+    <view class='flex'>
+      <image src='../images/ab.jpg' mode='widthFix' class='a1' ></image>
+      <view class='label'>关于我们</view>
+    </view>
+     <image src='../images/flex-right.png' class='flex-right'></image>
+  </view>
+</view>
+</view>
+

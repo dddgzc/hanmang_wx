@@ -1,0 +1,52 @@
+page{background: #f5f6fa;}
+
+.comment-list-wrapper{
+  padding: 0 30rpx;
+}
+
+.comment-items{
+  background: #fff;
+  padding: 24rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-top: 30rpx;
+}
+
+.picbox{
+  float: left;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.info-comment{
+  padding-left: 226rpx;
+  padding-top: 24rpx;
+}
+
+.titles{
+  font-size: 24rpx;
+  color: #333;
+  line-height: 24rpx;
+  margin-bottom: 28rpx;
+}
+
+.big-tit{
+  font-size: 28rpx;
+  color: #333;
+  line-height: 28rpx;
+  margin-bottom: 24px;
+}
+
+.comment-btn{
+  float: right;
+  font-size: 24rpx;
+  width: 170rpx;
+  height: 60rpx;
+  border: 1px solid #ff4747;
+  border-radius: 30rpx;
+  color: #ff4747;
+  line-height: 60rpx;
+  text-align: center;
+}
+

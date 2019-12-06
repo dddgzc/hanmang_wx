@@ -1,0 +1,10 @@
+.content{
+  padding: 4px 8px;
+}
+.item{
+  display: list-item;
+  margin-left: 1rem;
+  list-style-position: outside;
+  font-size: 14px;
+  padding: 0.2rem 0px;
+}

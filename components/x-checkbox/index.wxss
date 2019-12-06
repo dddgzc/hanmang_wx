@@ -1,0 +1,15 @@
+/* components/hx-checkbox/hx-checkbox.wxss */
+.group{
+  display: flex;
+  padding: 0px 8px;
+  flex-direction: column;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 35px;
+}
+checkbox{
+  margin-right: 8px;
+}

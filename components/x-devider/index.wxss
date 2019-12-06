@@ -1,0 +1,16 @@
+.deiver_view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.line{
+  display: flex;
+  flex-grow: 1.0;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+.p{
+  padding: 0px 1rem;
+}

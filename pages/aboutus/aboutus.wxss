@@ -1,0 +1,18 @@
+page{background: #f5f6fa;}
+
+.box{
+  padding: 30rpx;
+}
+
+.box-inner{
+  padding: 36rpx;
+  border-radius: 10rpx;
+  background: #fff;
+  font-size: 28rpx;
+  color: #646464;
+  line-height: 1.65;
+}
+
+.box-inner view{margin-bottom: 116rpx;}
+
+.box-inner view:last-child{margin-bottom: 0;}

@@ -1,0 +1,168 @@
+button::after{
+  border:none;
+}
+
+.user-box{
+  padding-right: 0;
+  background: #f5c337;
+  height: 245rpx;
+  padding: 60rpx 0 0 34rpx;
+  box-sizing: border-box;
+}
+
+.login_button{
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-color: white;
+  background: white;
+}
+
+.avtar{
+  width: 121rpx;
+  height: 121rpx;
+  border-radius: 50%;
+}
+
+.userinfor{
+  padding-left:32rpx;
+}
+
+.userinfor .nick-name{
+  font-size: 40rpx;
+  color: #333;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.grade text{
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #333;
+}
+
+.grade image{
+  width: 28rpx;
+  height: 30rpx;
+}
+
+.nav_item{
+  height: 105rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav_item .label{
+  font-size: 28rpx;
+  color: #646464;
+}
+
+.nav_item .flex image{margin-right: 21rpx;}
+.admin_box{
+  width:185rpx;
+  height: 64rpx;
+  background: #fff;
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ffcf3b;
+  border-top-left-radius: 32rpx;
+  border-bottom-left-radius: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex-right{width:12rpx;height: 20rpx; }
+
+.nav_list{
+  background: #fff;
+}
+
+.userbos{
+  position: relative;
+  top: 0;
+  z-index: 2
+}
+
+.more{
+  font-size: 26rpx;
+}
+
+.all-book{
+  padding: 0 30rpx;
+  background: #fff;
+}
+
+page{background: #efeef3}
+
+.title-box{height: 96rpx;border-bottom: 1px solid #e5e5e5;}
+
+.items{
+  text-align: center;
+  float: left;
+  width: 25%;
+  padding: 40rpx 0;
+}
+
+.items image{
+  display: block;
+  margin: auto;
+}
+
+.items view{
+  font-size: 22rpx;
+  color: #333;
+  margin-top: 16rpx;
+}
+
+.admin_box image{
+  width: 29rpx;
+  height: 27rpx;
+  margin-right: 15rpx;
+}
+
+.all{
+  padding: 0 30rpx;
+}
+
+page{background-color: #f5f6fa;}
+
+.top-cn{
+  padding: 18rpx 0;
+  background: #fff;
+  border-radius: 12rpx;
+  margin-top: -20rpx;
+  overflow: hidden;
+}
+
+.num{
+  font-size:45rpx ;
+  color: #333;
+  font-weight: bold;
+}
+
+.items1{
+  float: left;
+  width: 33.3333%;
+  border-right: 1px solid #f1f1f1;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.t{
+  font-size: 26rpx;
+  color: #969696;
+  margin-top: 12rpx;
+}
+
+.top-cn .items1:last-child{border-right: 0;}
+.ad{margin: 35rpx 0;}
+
+.ad image{width: 100%;}
+
+.a1{width: 51rpx;height: 48rpx;}

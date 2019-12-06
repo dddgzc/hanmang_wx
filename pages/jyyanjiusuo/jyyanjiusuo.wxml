@@ -1,0 +1,32 @@
+<view class="banner-img">
+  <image src="../images/banner-1.jpg"></image>
+</view>
+<view class="info">
+  <view class="titles">AI智能机器人优化项目</view>
+  <view class="flex-wrap">
+    <text class="share_time">分享时间：</text>
+    <view class="flex">
+      <text class="book-num">已有100人预约学习</text>
+      <text class="shengyu-me">余100名额</text>
+    </view>
+  </view>
+</view>
+<view class="heade flex">
+  <text class="tag">押金班</text>
+  <text class="txt">名额有限</text>
+</view>
+<view class="content-box">
+  <view class="box-item">
+    <view class="big-txt">详情介绍</view>
+    <view class="desc">详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍</view>
+  </view>
+  <view class="box-item">
+    <view class="big-txt">商品介绍</view>
+    <view class="desc">详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍</view>
+  </view>
+</view>
+<view class="join_btn">￥600押金立即报名</view>
+<view class="bam_zx">
+  <image src="../images/chat.jpg"></image>
+  <view class="btns">报名咨询</view>
+</view>

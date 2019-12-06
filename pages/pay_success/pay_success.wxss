@@ -1,0 +1,42 @@
+.pay_box{
+  padding: 70rpx 0 226rpx;
+  text-align: center;
+}
+
+.pay-success{
+  width: 206rpx;
+  height: 204rpx;
+  margin: auto;
+}
+
+.tips{
+  font-size: 36rpx;
+  color: #000;
+  margin: 56rpx 0 46rpx;
+}
+
+.tips-small{
+  font-size: 26rpx;
+  color: #888;
+  margin-bottom: 14rpx;
+}
+
+.tips-small-1{margin-top: 60rpx;}
+
+.code{
+  width: 388rpx;
+  height: 388rpx;
+  margin-top: 35rpx;
+}
+
+.home{
+  width: 100%;
+  font-size: 30rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  background: #ffcc2d;
+  position: fixed;
+  bottom: 0;
+  left: 0
+}

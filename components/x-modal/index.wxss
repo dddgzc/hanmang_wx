@@ -1,0 +1,136 @@
+.body{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    outline: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform: translateZ(1px);
+    z-index: 99999;
+}
+.shadow{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color:rgba(80 , 80, 80, 0.9);
+  height: 100%;
+  width: 100%;
+}
+.content{
+  position: relative;
+  width: 90%;
+  height: 85%;
+  background-color: white;
+  border-radius: 5px;
+}
+.close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.top_load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.top_load image{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.middle_load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  font-size: 32rpx;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  font-size: 32rpx;
+}
+.info{
+  padding:5px 15px 25px;
+  display:block;
+  white-space:pre-wrap;
+  word-break:all;
+  width:100%;
+  box-sizing:border-box;
+  color: #8a8a8a;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  font-size: 24rpx;
+}
+.share{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.operator-view{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0px 20px;
+  border: 1px #8a8a8a solid;
+}
+.share-button{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+form{
+  width: 100%;
+}
+.button-view{
+  width: 100%;
+}
+.bottom button{
+  width: 90%;
+  font-size: 32rpx;
+  margin: 5px auto;
+  color: white;
+}
+button::after{
+  opacity: 0.95;
+}
+.text-title{color: #409EFF;}
+.bg-label{background-color: #409EFF;}

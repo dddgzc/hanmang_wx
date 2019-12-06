@@ -1,0 +1,7 @@
+<view class='deiver_view'>
+  <view class='line'></view>
+  <x-icon class='p' wx:if="{{icon}}" type='{{icon}}'></x-icon>
+  <span class='p' wx:elif="{{label}}">{{label}}</span>
+  <view class='p' wx:else><slot class='p'></slot> </view> 
+  <view class='line'></view>
+</view>

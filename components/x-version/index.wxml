@@ -1,0 +1,6 @@
+<x-view display="version" padding="0px" row="center" color="info" font="12px">
+  {{version}}
+</x-view>
+<x-view row="center" color="info" font="12px">
+  {{label}}
+</x-view>

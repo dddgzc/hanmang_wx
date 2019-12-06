@@ -1,0 +1,5 @@
+<x-view width="{{size}}" height="{{size}}" padding="0px">
+  <x-image size="{{size}}" type="circle" src='{{src}}' border="{{border}}"></x-image>
+  <x-view wx:if="{{sign}}" display='readpoint' width="10" height="10" padding="0px" bgStyle="red"></x-view>
+  <x-view wx:if="{{text}}" display='level' col='middle' row='center' color="white" font="12px" width="30" height="12" padding="0px" bgStyle="red">{{text}}</x-view>
+</x-view>

@@ -1,0 +1,8 @@
+<view class='pay-box'>
+  <view class='pay-box-inner'>
+    <view class='item'>互联网1V11</view>
+    <view class='item'>有效期：之定制服务结束</view>
+    <view class='item'>价格:￥600</view>
+    <view class='pay_btn'>￥600支付</view>
+  </view>
+</view>

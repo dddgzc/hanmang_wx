@@ -1,0 +1,14 @@
+<view class="tabbar tab-pos">
+  <block wx:for="{{tabList}}" wx:key="{{index}}">
+    <view style='width:{{750/tabList.length}}rpx;' bindtap='clickItem' data-index='{{index}}' class='tabbar-item' wx:if="{{index === circle}}">
+      <view class='circle'>
+        <i wx:if="item.icon" style="font-size:40px;" class="iconfont aydk-icon-{{item.icon}}"></i>
+        <view wx:if="{{item.label}}">{{item.label}}</view>
+      </view>
+    </view>
+    <view style='width:{{750/tabList.length}}rpx;' bindtap='clickItem' data-index='{{index}}' class='tabbar-item,{{activeIndex==index?"active":""}},{{direct}}' wx:else>
+      <i class="iconfont aydk-icon-{{item.icon}}"></i>
+      <view style="margin:5px;">{{item.label}}</view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,77 @@
+<view class="nav flex-wrap">
+  <text bindtap='tab' class='{{current == 0 ? "active" : ""}}' data-index="0">定制体验营</text>
+  <text bindtap='tab'  class='{{current == 1 ? "active" : ""}}' data-index="1">自营训练营</text>
+  <text bindtap='tab' class='{{current == 2 ? "active" : ""}}' data-index="2">共享三人行</text>
+</view>
+
+<!--定制体验营-->
+<view class="wrapper" style="display:{{current == 0 ? 'block' : 'none'}}">
+  <view class="tab-list">
+    <view class="items" wx:for="{{goodslist}}" data-index="{{index}}">
+      <image src="{{item.picUrl}}"></image>
+      <view class="info">
+        <view class="titles">{{item.title1}}</view>
+        <view class="flex-wrap">
+          <text class="price">{{item.price}}</text>
+          <text class="book-num">已有{{item.num}}人预约学习</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--自营体验营-->
+<view class="wrapper1" style="display:{{current == 1 ? 'block' : 'none'}}">
+  <view class="tab-list" id="tab-list">
+    
+    <view class='index_tab'>
+      <scroll-view class="bottom_scroll" scroll-x="true"  scroll-with-animation="{{true}}">
+        <view class='nav1 {{current1 == index ?"cur":""}}' wx:for="{{nav_list}}"  wx:key="{{item.brand_id}}"  
+        bindtap='switchTap' data-index="{{index}}">
+          <view>{{item}}</view>
+        </view>
+      </scroll-view>
+    </view>
+
+    <view class="items" wx:for="{{goodslist1}}" data-index="{{index}}">
+      <image src="{{item.picUrl}}"></image>
+      <view class="info">
+        <view class="flex-wrap top">
+          <view class="gove flex"> <image src="../images/zan.jpg"></image>{{item.tag}}</view>
+          <view class="buyer-num flex"><image src="../images/shop.jpg"></image>{{item.num}}人已购买</view>
+        </view>
+        <view class="flex-wrap">
+          <text class="shengyu1">本期剩余{{item.synum}}名额</text>
+          <text class="price1">￥{{item.price}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 共享三人 -->
+<view class="wrapper2" style="display:{{current == 2 ? 'block' : 'none'}}">
+  <view class="tab-list">
+    
+    <view class="index_tab">
+      <scroll-view class="bottom_scroll" scroll-x="true" scroll-with-animation="{{ true }}" >
+        <view class='nav1 {{current1 == index ?"cur":""}}' wx:for="{{nav_list}}" wx:key="{{item.brand_id}}" bindtap="switchTap" data-index="{{index}}">
+          <view>{{item}}</view>
+        </view>
+      </scroll-view>
+    </view>
+    
+    <view class="items">
+      <image src="../images/pic2.jpg"></image>
+      <view class="info">
+        <view class="titles">互联网1V1</view>
+        <view class="flex-wrap">
+          <text class="price">￥600</text>
+          <view class="flex">
+            <text class="book-num">已有100人预约学习</text>
+            <text class="shengyu">0155</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

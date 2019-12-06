@@ -1,0 +1,6 @@
+<x-view wx:if="{{title}}" row="center">{{title}}</x-view>
+<view class='content' style='list-style-type:{{order? "decimal":""}}'>
+  <block wx:for="{{_listData}}">
+    <view class='item'>{{item.content}}</view>
+  </block>
+</view>

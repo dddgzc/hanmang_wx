@@ -1,0 +1,4 @@
+<scroll-view scroll-y bindscrolltoupper="scrollTop" bindscrolltolower="scrollBottom" style='height:{{height}};'>
+  <slot></slot>
+  <loadmore status="{{loadMore}}"></loadmore>
+</scroll-view>

@@ -1,0 +1,4 @@
+<view class='yijian'>
+  <textarea placeholder='请输入您的意见反馈' placeholder-class='yj'></textarea>
+  <button>提交</button>
+</view>

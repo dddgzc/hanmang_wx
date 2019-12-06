@@ -1,0 +1,19 @@
+<view class='input-view'>
+  <view class='label' wx:if="{{label}}">{{label}}</view>
+  <input 
+    wx:if="{{type==='input'}}" 
+    class='input' 
+    maxlength='{{maxlength}}'
+    type='{{inputType}}'
+    bindinput='_bindInput' 
+    style='width:{{label?530:730}}rpx;' 
+    value="{{value}}" 
+    placeholder='{{placeholder}}'></input>
+  <block wx:elif="{{type==='date'}}">
+    <picker mode="date" value="{{date}}" start="2017-09-01" end="2025-09-01" bindchange="_bindDateChange">
+      <view class="input" style='width:{{label?530:730}}rpx;'>
+        {{value||placeholder}}
+      </view>
+    </picker>
+  </block>
+</view>

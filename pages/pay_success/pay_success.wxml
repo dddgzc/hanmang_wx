@@ -1,0 +1,8 @@
+<view class='pay_box'>
+  <image src='../images/pay-success.jpg' class='pay-success'></image>
+  <view class='tips'>付款成功</view>
+  <view class='tips-small'>付款成功</view>
+  <view class='tips-small tips-small-1'>尽快添加老师微信</view>
+  <image src='../images/code.jpg' class='code'></image>
+</view>
+<view class='home'>返回学院首页</view>

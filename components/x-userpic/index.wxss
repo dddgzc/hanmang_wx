@@ -1,0 +1,13 @@
+/* components/x-userpic/index.wxss */
+.readpoint{
+  position: absolute !important;
+  right: 0px;
+  top: 0px;
+  border-radius: 50% !important;
+}
+.level{
+  position: absolute !important;
+  right: 0px;
+  bottom: 3px;
+  border-radius: 5px !important;
+}

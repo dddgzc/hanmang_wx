@@ -1,0 +1,149 @@
+<view class='detail-info'>
+  <image src='../images/pic2.jpg' class='detail-img'></image>
+  <view class="info">
+    <view class='titles'>互联网1V11</view>
+    <view class="flex-wrap top">
+      <view class="gove flex"> <image src="../images/zan.jpg"></image>官方推荐</view>
+      <view class="buyer-num flex"><image src="../images/shop.jpg"></image>300人已购买</view>
+    </view>
+    <view class="flex-wrap">
+      <text class="small-t">互联网1V11</text>
+      <text class="price1">￥60000</text>
+    </view>
+  </view>
+</view> 
+<view class='content'>
+  <view class='con-item'>
+    <view class='t'>第一次写简历如果你遇到这些问题</view>
+    <view class='view-item-small'>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+    </view>
+  </view>
+  <view class='con-item'>
+    <view class='t'>第一次写简历如果你遇到这些问题</view>
+    <view class='view-item-small'>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+    </view>
+  </view>
+  <view class='server'>
+    <view class='con-item'>
+      <view class='t'>服务流程</view>
+      <view class='view-item-small'>
+        <view>第一次写简历如果你遇到这些问题</view>
+        <view>第一次写简历如果你遇到这些问题</view>
+        <view>(3)与导师预约时间</view>
+        <view class='book-box-box'>
+          <view class='content-item'>
+            <view class='head-title flex'>
+              <image src='../images/day.jpg'></image>
+              <text class='day-tit'>Day1</text>
+              <text>2H</text>
+            </view>
+            <view class='book-items-con'>
+              <view class='pro-title'>产品刚介绍及核心产品思维</view>
+              <view class='pro-title-sub'>产品刚介绍及核心产品思维</view>
+            </view>
+          </view>
+          <view class='content-item'>
+            <view class='head-title flex'>
+              <image src='../images/day.jpg'></image>
+              <text class='day-tit'>Day1</text>
+              <text>2H</text>
+            </view>
+            <view class='book-items-con'>
+              <view class='pro-title'>产品刚介绍及核心产品思维</view>
+              <view class='pro-title-sub'>产品刚介绍及核心产品思维</view>
+            </view>
+          </view>
+          <view class='content-item'>
+            <view class='head-title flex'>
+              <image src='../images/day.jpg'></image>
+              <text class='day-tit'>Day1</text>
+              <text>2H</text>
+            </view>
+            <view class='book-items-con'>
+              <view class='pro-title'>产品刚介绍及核心产品思维</view>
+              <view class='pro-title-sub'>产品刚介绍及核心产品思维</view>
+            </view>
+          </view>
+          <view class='content-item'>
+            <view class='head-title flex'>
+              <image src='../images/day.jpg'></image>
+              <text class='day-tit'>Day1</text>
+              <text>2H</text>
+            </view>
+            <view class='book-items-con'>
+              <view class='pro-title'>产品刚介绍及核心产品思维</view>
+              <view class='pro-title-sub'>产品刚介绍及核心产品思维</view>
+            </view>
+          </view>
+        </view>
+        <view class='tips-con'>
+          <view class='tips-items'>
+            输出方
+          </view>
+          <view class='tips-items'>
+            输入方
+          </view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <view class='con-item'>
+    <view class='t'>报名须知</view>
+    <view class='view-item-small'>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+      <view>第一次写简历如果你遇到这些问题</view>
+    </view>
+  </view>
+  <view class='con-item'>
+    <view class='t'>往期学员评价</view>
+    <view class='view-item-small flex-wrap'>
+      <image src='../images/pic3.jpg'></image>
+      <image src='../images/pic3.jpg'></image>
+      <image src='../images/pic3.jpg'></image>
+    </view>
+  </view>
+</view>
+<view class='footer flex-wrap'>
+  <view class='left-box flex-wrap'>
+    <view class='btn-boxs'>
+      <image class='kefu' src='../images/kefu.jpg'></image>
+      <view>客服咨询</view>
+    </view>
+    <view class='btn-boxs'>
+      <image class='collect' src='../images/collect.jpg'></image>
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class='buy-btn' bindtap='open'>
+    <image src='../images/car.jpg'></image>
+    <text>立即购买</text>
+  </view>
+</view>
+<view class='alert-bg' style="display:{{flag ? 'block' : 'none'}}">
+  <view class='alert-box-content'>
+    <view class='head' bindtap='close'>
+      <image src='../images/close.jpg' class='close'></image>
+      确认付款
+    </view>
+    <view class='box-xq'>
+      <view class='end-price'>￥6000</view>
+      <view class='info-item flex-wrap'>
+        <text class='label-t'>订单信息</text>
+        <text class='tx'>225555</text>
+      </view>
+      <view class='info-item flex-wrap'>
+        <text class='label-t'>订单信息</text>
+        <text class='tx'>225555</text>
+      </view>
+    </view>
+    <view class='pay_money_btn'>立即付款</view>
+  </view>
+</view>

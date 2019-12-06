@@ -1,0 +1,4 @@
+<view class='progress' style='height:{{stroke}}px;width:100%;'>
+  <view class='progress-item' style='height:{{stroke}}px;background:{{color}};width:0%' animation="{{animationData}}"></view>
+  <view class='label' style='font-size:{{stroke}}px;height:{{stroke}}px;'>{{label}}({{percent}}/{{total}})</view>
+</view>

@@ -1,0 +1,14 @@
+
+<view class="comment-list-wrapper">
+  <view class="comment-items" wx:for="{{commentArr}}" data-index="{{index}}">
+    <image src="{{item.picUrl}}" class="picbox"></image>
+    <view class="info-comment">
+      <view class="titles">{{item.title1}}</view>
+      <view class="big-tit">{{item.title2}}</view>
+      <view class="clearfix">
+        <text class="comment-btn">课程评价</text>
+      </view>
+    </view>
+  </view>
+  
+</view>
